@@ -1,5 +1,32 @@
+# Виртуальные окружения
 .venv/
-__pycache__/
+.venv_test/
+venv/
+env/
+
+# Переменные окружения и секреты
 .env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Авторизация и состояние Playwright
 data/hh_auth.json
 data/seen_vacancies.json
+
+# Персональные резюме и результаты обработки
+data/base_resume.md
+data/tailored_resume.md
+data/vacancy_history/
+
+# Временные файлы
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# PyCharm
+.idea/
